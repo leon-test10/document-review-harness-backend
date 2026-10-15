@@ -1,0 +1,149 @@
+{
+  "project": "document-review-harness-backend",
+  "version": "0.1.0",
+  "runtime": "@deepseek-ai/dsh@0.2.1-alpha.3",
+  "files": [
+    {
+      "path": "package.json",
+      "bytes": 549,
+      "sha256": "02803eef03cfd7e27b47f6d4810c2f65853b7f175af5c6b6658f664f00fa7e96"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 414555,
+      "sha256": "6f853185f3f27d3bf9e7b30fab866f923ec62a42d5fad557cef7d65275269a1d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10643,
+      "sha256": "f8349a823659518ca0e25b011ddfe2787d7e9027ead40d7fad5d7421b568a32e"
+    },
+    {
+      "path": "openapi.json",
+      "bytes": 25631,
+      "sha256": "599e91b7ffe015e59306469fb8daf7038105f915bc6681631879c09a965ea0ca"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 578,
+      "sha256": "c71f5f1bdbd50b2eeb626ed5f57334c6108b5e3f8a6e1db4d09a33b3be08aa0c"
+    },
+    {
+      "path": ".dockerignore",
+      "bytes": 54,
+      "sha256": "de8ff41dc8dd99e889811d2a774d964d99624a17885121336556570ac21b3e16"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 101,
+      "sha256": "8278933a53f46a20eecfa04841dd0a104b41dced37d6e11b477fea9c9fbdd290"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 314,
+      "sha256": "f87725ae376073207d90351e12a39ceee9c342a59559e7d8e7126a9af69cf2f5"
+    },
+    {
+      "path": "SOURCE_REFERENCES.md",
+      "bytes": 2339,
+      "sha256": "74e73bc3c1a65fcd350c807c5510a8bad8aa435ecf6823848975d2338cbb1605"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 5023,
+      "sha256": "fd2eb9f722d2fd377ec0128f01a565c6e5b474ce8011d2a4e8b3ff63a253f3f7"
+    },
+    {
+      "path": "ACCEPTANCE_SUMMARY.md",
+      "bytes": 3176,
+      "sha256": "e9c8cdcc024cb45839d44c14d6ea07bab57578c8a7d19611dec2904e77cadd57"
+    },
+    {
+      "path": "src/config.mjs",
+      "bytes": 3593,
+      "sha256": "91ac80f80743b855eb8dad6881356341a3ab5c381512ce8ed0f5d000a6bc2669"
+    },
+    {
+      "path": "src/runtime.mjs",
+      "bytes": 5226,
+      "sha256": "c7dbaf612764566f6567a39bbc138cc61347d45a2efc45f145f5082b73596022"
+    },
+    {
+      "path": "src/backend.mjs",
+      "bytes": 17021,
+      "sha256": "417c33f65fc2aec1673d8359cf9242c10cf87cd8dcf54b652e29ae7c9abeb3ce"
+    },
+    {
+      "path": "src/server.mjs",
+      "bytes": 1139,
+      "sha256": "0f3e0a50ba6da6e54fe0681c0cf6c2ee00fd2a140e72d76479321fae71b66818"
+    },
+    {
+      "path": "runtime/bounded-tools.mjs",
+      "bytes": 2492,
+      "sha256": "2b5a3cdc0724dcf9f658adfb17e975e7562ad8eb86b18d196e22353e90eabd5d"
+    },
+    {
+      "path": "config/profiles.example.json",
+      "bytes": 1136,
+      "sha256": "3d873fee413dd0c87550b832d9d0deccd5fe3c082de2722a527bf9f4a2e1a775"
+    },
+    {
+      "path": "skills/document-review/SKILL.md",
+      "bytes": 680,
+      "sha256": "c968d34ac1bd7f73eeb55902325c2d09611204d9ec10dc985225ff2bdcce4a96"
+    },
+    {
+      "path": "examples/plugins/text-stats.mjs",
+      "bytes": 604,
+      "sha256": "c70e0c3c376ddb2458987f72df100646959b81e3ffac23762ebe1cc9732c4b64"
+    },
+    {
+      "path": "tests/api.test.mjs",
+      "bytes": 3282,
+      "sha256": "b4d634c16ecbf044bee4ccd5cc8abca784949533d3abdb463848924f79f45b0c"
+    },
+    {
+      "path": "tests/security.test.mjs",
+      "bytes": 2497,
+      "sha256": "ed8c1f46549c1f08859b5e3abccfe704690b164cba3dca1f45ab32c4e8ed6856"
+    },
+    {
+      "path": "tests/integration/runtime.test.mjs",
+      "bytes": 7519,
+      "sha256": "8451ab973ec1eaf99befc8472ab0906f238b051cdae67e6b4061d225117ad6fd"
+    },
+    {
+      "path": "test-support/model-stub.mjs",
+      "bytes": 12060,
+      "sha256": "d714d6d1332bc435f2ba1ed7913f999bd16e5410d67a8c3dc47ee2bece4bab92"
+    },
+    {
+      "path": "test-support/README.md",
+      "bytes": 3813,
+      "sha256": "649e37486f24cf93731ad59ed30fc212ca0a6842c55bf44d6293a799ddc7ae4b"
+    },
+    {
+      "path": "scripts/generate-openapi.py",
+      "bytes": 5609,
+      "sha256": "250705916a5a035fb31dc269058907d975d6a3e99515c4ee3c36ff6be079b9f2"
+    },
+    {
+      "path": "scripts/smoke-runtime.mjs",
+      "bytes": 835,
+      "sha256": "192e35b123076f585292eccd1092a7776e804d57ab3200a5b3ae824c20a179a8"
+    },
+    {
+      "path": "scripts/package-source.py",
+      "bytes": 2175,
+      "sha256": "1b27363189d8854633c73a8bc1a3d2dbdb97f2afa9712fab53af3fa3169b2937"
+    }
+  ],
+  "excluded": [
+    "node_modules",
+    "vendor upstream checkout",
+    "runtime data/logs",
+    "credentials",
+    ".git"
+  ]
+}

@@ -1,0 +1,14 @@
+import { mkdtemp } from 'node:fs/promises';
+import { startModelStub } from '../test-support/model-stub.mjs';
+import { loadProfiles } from '../src/config.mjs';
+import { prepareRuntime, launchRuntime } from '../src/runtime.mjs';
+const stub=await startModelStub();
+const p=loadProfiles().profiles[0];p.model.base_url=stub.url+'/v1';
+process.env.HARNESS_MODEL_API_KEY='local-test-only';
+const paths=await prepareRuntime({runRoot:await mkdtemp('/tmp/harness-smoke-'),profile:p,files:[],maxFileBytes:1048576});
+const child=launchRuntime(paths,p,'hello from a plain generic prompt');
+child.stdout.pipe(process.stdout); child.stderr.pipe(process.stderr);
+const code=await new Promise(resolve=>child.on('close',resolve));
+console.log('EXIT',code,'REQUESTS',stub.requests.length,'ROOT',paths.runRoot);
+await stub.close();
+process.exitCode=code;

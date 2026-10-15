@@ -1,0 +1,8 @@
+node_modules
+vendor
+data
+.git
+.env
+.env.*
+*.zip
+*.tgz

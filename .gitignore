@@ -1,0 +1,13 @@
+node_modules/
+/vendor/
+/data/
+.env
+.env.*
+!.env.example
+*.log
+*.tgz
+*.zip
+
+/dist/
+__pycache__/
+*.pyc
